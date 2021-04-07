@@ -1,0 +1,370 @@
+
+
+.h-menu{
+  list-style: none;
+  margin-left: 20px;
+  
+}
+
+header nav{
+  display: flex;
+   position:fixed;
+}
+
+header ul{
+  display: flex;
+  position: fixed;
+ right:30px;
+  color: white;
+  
+}
+
+header img{
+  height: 100px;
+}
+
+header a{
+  text-decoration: none;
+  color: white;
+}
+
+#top{
+  width: 100%;
+}
+
+
+
+/*body*/
+
+body{
+background: linear-gradient(to bottom, #009FE3, #004462);
+  display: none;
+ 
+}
+
+#artworks{
+  text-align: center;
+  margin-top: 80px;
+}
+
+t1{
+  font-size: 35px;
+  text-decoration: underline;
+  color: white;
+}
+
+.a-samune{
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.katamari{
+ display: inline-block;
+   margin-left: 50px;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+.katamari a{
+  text-decoration: none;
+}
+
+.sakuhin{
+  margin-top: 60px;
+}
+
+.sakuhin img:hover { opacity: 0.6; filter: brightness(110%); -webkit-transition: all .3s; transition: all .3s;}
+
+
+
+.sakuhin p{
+  font-size: 10px;
+  margin-top: 0;
+  text-align: center;
+  color: white;
+}
+
+.sensuikan img{
+  width: 300px;
+}
+
+.sensuikan{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+  
+}
+
+/*BLOG*/
+#blog{
+  text-align: center;
+}
+
+.yokosuku{
+   overflow-x: scroll;
+      white-space: nowrap;
+-ms-overflow-style: none;   
+  scrollbar-width: none;
+}
+
+.yokosuku::-webkit-scrollbar {    /* Chrome、Safari用 */
+  display:none;
+}
+
+ .b-item {
+      /* 横スクロール用 */
+      display: inline-block;
+      
+      /* 見た目調整 */
+      margin-right: 100px;
+      font-size: 15px;
+   color: white;
+   text-align: center;
+    }
+
+.b-item img{
+  width: 400px;
+}
+
+.b-item p{
+  margin-top: 0;
+}
+
+.b-item a{
+  text-decoration: none;
+  color: white;
+}
+
+/*ABOUT*/
+#about{
+  text-align: center;
+  margin-top: 100px;
+}
+
+#about t1{
+  clear: left;
+}
+
+#about img{
+  width: 500px;
+  margin: 30px;
+}
+
+#about t2{
+  color: white;
+  font-size: 40px;
+  clear: right;
+  
+}
+
+.skill p{
+  color: white;
+  font-size: 15px;
+}
+
+.A-moji{
+  text-align: center;
+}
+
+.A-moji p{
+  color: white;
+}
+
+.skill{
+  position: relative;
+  width: 200px;
+}
+
+.skill-katamari{
+  display:flex; 
+  text-align: center;
+   justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+t3{
+  color: white;
+ font-size: 20px;
+}
+
+.t3{
+  margin-top: 70px;
+}
+
+.skill img{
+  margin: 0;
+  width: 200px;
+}
+
+.skill p{
+  position: absolute;
+  left: 41%;
+  top: 40%;
+  margin: 0;
+}
+
+/*CONTACTページ*/
+.contact{
+  text-align: center;
+  margin-top: 80px;
+  width: 100%;
+}
+.back{
+  width: 240px;
+  height: 100px;
+  object-fit: cover;
+  margin-top: 100px;
+  margin-bottom: 300px;
+
+}
+.soushin{
+  text-align: center;
+  box-sizing: border-box;
+  /* 中央揃え */
+  display: block;
+  margin: 0 auto;
+  /* 幅の指定 */
+  width: 150px;
+  padding: 10px;
+  /* 色の指定 */
+  color: white; /* 文字色 */
+  border: 4px solid white; /* 枠線 */
+  font-weight: bold;
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  margin-top: 50px;
+}
+
+.form label{
+  color: white;
+font-size: 11px;
+  margin-right: 210px;
+}
+
+
+
+@media screen and (min-width:767px) {
+   .input {
+  
+  margin-left: 40%;
+}
+}
+
+@media screen and (max-width:767px) {
+   .input {
+  text-align: center;
+  margin-left: 30%;
+}
+}
+
+.form input{
+  width: 250px;
+  height: 40px;
+  border: none;
+}
+
+.form label,input{
+  display: block;
+}
+
+.form{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.naiyou{
+  text-align: center;
+}
+
+.naiyou label{
+   color: white;
+font-size: 11px;
+  margin-right: 170px;
+  margin-top: 50px;
+}
+
+.naiyou label,textarea{
+  display: block;
+}
+
+.naiyou textarea{
+  width: 250px;
+  height: 100px;
+  border: none;
+}
+
+/*footer*/
+.footer{
+  text-align: center;
+}
+
+.footer img{
+  margin-left: 80px;
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+
+.f-haikei{
+  background-color: #006E9D;
+  height: 120px;
+  margin-top: 0;
+   width: 100%;
+}
+
+.f-haikei footer{
+  color: white;
+ padding-top: 20px;
+}
+
+.footer i{
+  color: #004462;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+/*作品詳細ページ*/
+.s-icon{
+   display: flex;
+  position: fixed;
+ right:30px;
+  margin-top: 20px;
+}
+
+.s-icon i{
+  font-size: 30px;
+  margin-left: 10px;
+}
+
+.s-image{
+  width: 70%;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+
+.s-zentai{
+  text-align: center;
+}
+
+.s-p{
+  margin: 10px 160px;
+}
+
+.s-skill-katamari{
+  display:flex; 
+  justify-content: center;
+ margin: 50px 0;
+}
+
+.s-zentai p{
+  color: white;
+  font-size: 15px;
+}
+
+.s-p a{
+  color: white;
+}
