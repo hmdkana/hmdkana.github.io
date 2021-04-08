@@ -30,6 +30,7 @@ header a{
 
 #top{
   width: 100%;
+ 
 }
 
 
@@ -39,7 +40,7 @@ header a{
 body{
 background: linear-gradient(to bottom, #009FE3, #004462);
   display: none;
- 
+ margin: 0;
 }
 
 #artworks{
