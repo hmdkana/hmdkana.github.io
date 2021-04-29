@@ -309,6 +309,7 @@ font-size: 11px;
 /*footer*/
 .footer{
   text-align: center;
+  margin-top: 200px;
 }
 
 .footer img{
@@ -367,7 +368,9 @@ font-size: 11px;
 .s-skill-katamari{
   display:flex; 
   justify-content: center;
- margin: 50px 0;
+ margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 100px;
 }
 
 .s-zentai p{
