@@ -30,26 +30,30 @@
   <div class="contact">
     <t1>CONTACT</t1>
 
-    <form>
+     <form method="post">
+       
+       <form method="POST" action="mailto:osakana.dattara@gmail.com?Subject=Portfolio_CONTACT">
+<input type="HIDDEN" name="address" value="tanks.html">
+       
       <div class="form">
-        <label>お名前</label>
+        <label for="name">お名前</label>
         <div class="input">
         <input type="text">
         </div>
       </div>
       <div class="form">
-        <label>ご連絡先</label>
+        <label for="email">ご連絡先</label>
         <div class="input">
         <input type="mail">
         </div>
       </div>
       <div class="naiyou">
-        <label>お問い合わせ内容</label>
+        <label for="naiyou">お問い合わせ内容</label>
         <div class="input">
         <textarea></textarea>
         </div>
       </div>
-      <a href="#" class="soushin">送信</a>
+      <input type="submit" class="soushin" value="送信">
     </form>
     
     <p class="s-p">※現在フォーム作成中のため、ご連絡はTwitterかInstagramのDMにてお願い致します。</p>
@@ -57,6 +61,9 @@
     <a href="index.html"> <img class="back" src="image/back%E3%83%9C%E3%82%BF%E3%83%B3.PNG" ></a>
 
   </div>
+  
+  
+  
 
   <div class="footer">
     <div class="f-haikei">
@@ -84,4 +91,7 @@
   $(function() {
 	$('body').fadeIn(1000); //1秒かけてフェードイン！
 });
+  
+
+
 </script></html>
