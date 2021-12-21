@@ -482,6 +482,10 @@ nav {
   width: 40%;
 }
 
+.march_flex img {
+  width: 80%;
+}
+
 /* レスポンシブ */
 @media screen and (max-width: 599px) {
   .main {
